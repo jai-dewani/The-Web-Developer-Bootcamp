@@ -1,0 +1,7 @@
+<h1>body</h1>
+
+<% data["Search"].forEach(function(movie){ %>
+    <h2><%= movie["Title"] %> - <em>Year: <%= movie["Year"] %></em></h2>
+    
+    <img width="200px" height="300px" src="<%= movie["Poster"] %>">
+<% }); %> 
